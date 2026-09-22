@@ -1,4 +1,4 @@
-package infraestructure.persistence;
+package infraestructure;
 
 import domain.model.Order;
 
