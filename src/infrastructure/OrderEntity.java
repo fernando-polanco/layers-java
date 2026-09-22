@@ -1,4 +1,4 @@
-package infraestructure;
+package infrastructure;
 
 import domain.model.OrderItem;
 import domain.model.OrderStatus;
