@@ -18,7 +18,7 @@ public class InMemoryOrderRepository implements OrderRepository {
     }
 
     @Override
-    public Optional<Order> findById(String id) {
+    public Optional<Order> findById(int id) {
         return Optional.ofNullable(orders.get(id)).map(OrderEntityMapper::toDomain);
     }
 
